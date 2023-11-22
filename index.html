@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Jura:wght@300;400;500;600;700&family=Montserrat+Alternates:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stalinist+One&display=swap"
+        rel="stylesheet">
+    <title>Coffe</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="header_inner">
+                <a href="index.html">
+                    <img src="assets/images/logo/logo.png" alt="logo">
+                </a>
+                <nav class="nav">
+                    <ul class="ul-nav">
+                        <li class="li-nav">ГЛАВНАЯ</li>
+                        <li class="li-nav">УСЛУГИ</li>
+                        <li class="li-nav">ПРОДУКТЫ</li>
+                        <li class="li-nav">СВЯЗЬ</li>
+                    </ul>
+                </nav>
+                <div class="social_header">
+                    <a href="https://instagram.com/" target="_blank">
+                        <ion-icon name="logo-instagram" class="icon_social"></ion-icon>
+                    </a>
+                    <a href="https://facebook.com/" target="_blank">
+                        <ion-icon name="logo-facebook" class="icon_social"></ion-icon>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <ion-icon name="logo-twitter" class="icon_social"></ion-icon>
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <ion-icon name="logo-whatsapp" class="icon_social"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hamb"></div>
+        <div class="header_phone">
+            <ul class="ul_nav_phone">
+                <li class="li_nav_phone">ГЛАВНАЯ</li>
+                <li class="li_nav_phone">УСЛУГИ</li>
+                <li class="li_nav_phone">ПРОДУКТЫ</li>
+                <li class="li_nav_phone">СВЯЗЬ</li>
+            </ul>
+        </div>
+        <form action="submit.php" method="POST">
+            <ion-icon name="close-outline" class="close_form"></ion-icon>
+            <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                <span class="error-message"></span>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+        <div class="modal">
+            <div class="text_modal">Привет, ты еще хочешь кофе?</div>
+        </div>
+        <div class="intro">
+            <div class="intro_text">
+                <h1 class="intro_title">
+                    <div class="first_title">КОФЕ</div>
+                    <div class="last_title">ФЕСТИВАЛЬ</div>
+                </h1>
+                <p class="intro_sup_title">Основным процессом компании кофе является обжарка и перемолка кофейных зерен.
+                    Качество зёрен и их обжарка имеют значительное значение для получения вкусного кофе.
+                </p>
+            </div>
+        </div>
+        <div class="promotions">
+            <div class="promotions_title">Акции</div>
+            <div class="wrapper_promotions">
+                <img class="img_promotions" src="assets/images/content/promotion1.jpg" alt="promotion">
+                <img class="img_promotions" src="assets/images/content/promotion2.jpg" alt="promotion">
+                <img class="img_promotions" src="assets/images/content/promotion3.jpg" alt="promotion">
+            </div>
+        </div>
+        <div class="slider_reviews">
+            <div class="slider_line_reviews">
+                <div class="review_block">
+                    <div class="title_review">УРАКОВ ДМИТРИЙ</div>
+                    <p class="review_text">Я очень доволен посещением кофейни "Кофе". Обслуживание было отличным,
+                        персонал дружелюбный и внимательный. Кофе был свежим и вкусным. Приятная атмосфера и уютный
+                        интерьер сделали мое посещение приятным и незабываемым.</p>
+                </div>
+                <div class="review_block">
+                    <div class="title_review">СВИРИДОВ АЛЕКСАНДР</div>
+                    <p class="review_text">Недавно открытая кофейня "Кофе" порадовала меня своим разнообразным меню и
+                        качественным кофе. Я заказывал капучино и он был просто великолепным. Большой плюс - разумные
+                        цены и быстрое обслуживание.</p>
+                </div>
+                <div class="review_block">
+                    <div class="title_review">МИХАИЛ КОНСТАНТИНОВ</div>
+                    <p class="review_text">Кофейня "Кофе" - отличное место для проведения рабочих встреч. Здесь есть
+                        уютные зоны для работы с ноутбуком, быстрый Wi-Fi и широкий выбор кофе и закусок. Обслуживание
+                        было быстрым и профессиональным.</p>
+                </div>
+                <div class="review_block">
+                    <div class="title_review">САЛЫКИН ИВАН</div>
+                    <p class="review_text">Приятное открытие - кофейня "Кофе". Понравился качественный кофе, а также
+                        вкусные десерты. Интерьер очень стильный и уютный, обстановка располагает к длительному
+                        пребыванию. Буду обязательно рекомендовать друзьям и знакомым.</p>
+                </div>
+                <div class="review_block">
+                    <div class="title_review">ГОРДЕЙ ПЕТРОСЯН</div>
+                    <p class="review_text">Очень доволен выбором кофе в кофейне "Кофе". Они предлагают разнообразные
+                        сорта кофе, ароматные и насыщенные вкусом. Персонал дружелюбный и готов помочь с выбором. Очень
+                        рекомендую посетить это место кофеманам.</p>
+                </div>
+                <div class="review_block">
+                    <div class="title_review">ЛИЛЯ ПТИЦЫНА</div>
+                    <p class="review_text">Отличная кофейня "Кофе"! Очень оценил их собственную обжарку. Кофе получается
+                        настоящим и насыщенным. Постоянно заказываю здесь свой любимый эспрессо. Обслуживание всегда
+                        быстрое и очень дружелюбное.</p>
+                </div>
+            </div>
+        </div>
+        <div class="premium">
+            <div class="premium_text">
+                <div class="premium_title">
+                    <div class="premium_first_title">ПРЕМИУМ</div>
+                    <div class="premium_last_title">КОФЕ</div>
+                </div>
+                <p class="premium_sup_title">Бразилия Серрадо — один из базовых сортов под эспрессо в нашем ассортименте
+                    и отличная альтернатива второму сорту из коммерческого сегмента Бразилии — Можиане. Отличается он
+                    еще более сбалансированным вкусом без лишней кислотности, а также чуть более доступной ценой.
+                </p>
+            </div>
+            <img src="assets/images/content/premium.jpg" alt="premium" class="premium_img">
+        </div>
+        <div class="matcha">
+            <div class="matcha_text">
+                <div class="matcha_title">
+                    <div class="matcha_first_title">MATCHA</div>
+                    <div class="matcha_last_title">LATTE</div>
+                </div>
+                <p class="matcha_sup_title">Напиток, который готовится на основе чая матча с добавлением молока (в
+                    основном миндального, соевого или кокосового) и подсластителей (меда, сахара и т.д.)
+                </p>
+            </div>
+        </div>
+        <div class="sweet">
+            <img src="assets/images/content/i1.jpg" alt="sweet" class="sweet_img">
+            <div class="text_sweet">
+                <div class="sweet_title">
+                    <div class="sweet_first_title">Сладкие</div>
+                    <div class="sweet_last_title">Мгновения</div>
+                </div>
+                <p class="sweet_sup_title">Блины одними из первых приходят в голову при упоминании о русской кухне. Их
+                    пекли на Руси абсолютно все и всегда. Особенно в масленичную неделю. В наши дни можно не жечь чучело
+                    и не водить хороводы, но блины — символ праздника, который, кажется, будет с нами всегда.
+                </p>
+            </div>
+        </div>
+        <div class="weekend">
+            <div class="text_weekend">
+                <div class="text_weekend_wrapper">
+                    <div class="weekend_title">
+                        <div class="weekend_first_title">СКИДКА</div>
+                        <div class="weekend_last_title">ДНЯ</div>
+                    </div>
+                    <p class="weekend_sup_title">Супер скидка дня в нашей уютной кофейне!
+                        Только сегодня, специально для вас, мы предлагаем уникальное предложение - двойное увеличение
+                        порции вашего любимого напитка абсолютно бесплатно!
+                    </p>
+                </div>
+            </div>
+            <img src="assets/images/content/i2.jpg" alt="weekend" class="weekend_img">
+        </div>
+        <div class="menu">
+            <img src="assets/images/content/i3.jpg" alt="menu" class="menu_img">
+            <div class="text_menu">
+                <div class="title_menu">КОФЕ</div>
+                <div class="line_product">
+                    <div class="name_flex">
+                        <div class="name">Эспрессо</div>
+                        <div class="price">₽50</div>
+                    </div>
+                    <p class="text_product">Эспрессо пользуется большой популярностью во всём мире, прежде всего в Италии.</p>
+                </div>
+                <div class="line_product">
+                    <div class="name_flex">
+                        <div class="name">Мокко</div>
+                        <div class="price">₽140</div>
+                    </div>
+                    <p class="text_product">Предания связывают расцвет города Моха с именем шейха Шадди.</p>
+                </div>
+                <div class="line_product">
+                    <div class="name_flex">
+                        <div class="name">Латте</div>
+                        <div class="price">₽100</div>
+                    </div>
+                    <p class="text_product">Кофейный напиток, который включает в себя три слоя: молочную пену, молоко и кофе эспрессо.</p>
+                </div>
+            </div>
+        </div>
+        <div class="special">
+            <div class="text_special">
+                <div class="title_special">СПЕЦИАЛЬНЫЙ КОФЕ</div>
+                <div class="line_product">
+                    <div class="name_flex">
+                        <div class="name">Макиато</div>
+                        <div class="price">₽150</div>
+                    </div>
+                    <p class="text_product">Макиато состоит из кофе с добавлением сливок, шоколадного сиропа (либо какао порошка) и сахара.</p>
+                </div>
+                <div class="line_product">
+                    <div class="name_flex">
+                        <div class="name">Капучино</div>
+                        <div class="price">₽60</div>
+                    </div>
+                    <p class="text_product">Кофейный напиток итальянской кухни на основе эспрессо.</p>
+                </div>
+                <div class="line_product">
+                    <div class="name_flex">
+                        <div class="name">Американо</div>
+                        <div class="price">₽100</div>
+                    </div>
+                    <p class="text_product">Способ приготовления кофе, заключающийся в соединении определённого количества горячей воды и эспрессо.</p>
+                </div>
+            </div>
+            <img src="assets/images/content/i4.jpg" alt="special" class="special_img">
+        </div>
+        <footer class="footer">
+            <a href="index.html">
+                <img src="assets/images/logo/logofooter.png" alt="logo" class="logo_footer">
+            </a>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/scripts/Main.js"></script>
+
+</body>
+
+</html>
